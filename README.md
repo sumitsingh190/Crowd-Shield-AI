@@ -200,40 +200,49 @@ This transforms **raw ML output** into **decision-ready insight**.
 
 ---
 
-🔄 Demo Flow (Recommended Order)
+## 🔄 Demo Flow (Recommended Execution Order)
 
-Start Backend
+Follow this sequence to experience the system as intended:
 
-Start Frontend
+1️⃣ **Start the Backend**  
+→ Initializes APIs, WebSockets, and data handling  
 
-Run ML Pipeline
+2️⃣ **Start the Frontend**  
+→ Connects to the backend and prepares the live dashboard  
 
-Observe live dashboard
+3️⃣ **Run the ML Pipeline**  
+→ Begins real-time video analysis and risk computation  
 
-View final report after completion
+4️⃣ **Observe the Live Dashboard**  
+→ View synchronized video, metrics, graphs, and alerts  
 
-🎯 Use Cases
+5️⃣ **View the Final Report**  
+→ Analyze summarized insights after video completion  
 
-Crowd safety monitoring
+This order ensures smooth real-time communication and accurate visualization.
 
-Smart city surveillance
+---
 
-Event management systems
+## 🎯 Use Cases
 
-Public infrastructure safety
+CrowdShield AI can be applied in a wide range of real-world scenarios, including:
 
-Academic & research projects
+- 🚉 **Crowd Safety Monitoring** in public spaces  
+- 🌆 **Smart City Surveillance** systems  
+- 🎤 **Event & Stadium Management**  
+- 🏛️ **Public Infrastructure Safety**  
+- 🎓 **Academic & Research Projects**  
 
-🎓 Academic & Professional Value
+---
 
-This project demonstrates:
+## 🎓 Academic & Professional Value
 
-Real-time AI system design
+This project demonstrates strong practical and conceptual skills, including:
 
-ML + Backend + Frontend integration
+- 🧠 **Real-Time AI System Design**
+- 🔗 **ML + Backend + Frontend Integration**
+- ⚡ **WebSocket-Based Live Data Streaming**
+- 🎥 **Synchronized Video & Analytics Pipeline**
+- 🛠️ **Clean, Modular Software Engineering Practices**
 
-WebSocket-based live systems
-
-Synchronization of analytics & video
-
-Clean software engineering practices
+Together, these aspects make CrowdShield AI suitable for **academic evaluation, technical demonstrations, and professional portfolios**.
