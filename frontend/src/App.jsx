@@ -117,9 +117,6 @@ export default function App() {
   // ===============================
   // FINAL REPORT
   // ===============================
-  // ===============================
-// FINAL REPORT (ENHANCED)
-// ===============================
 if (completed) {
   const maxRisk = Math.max(...history.map(h => h.risk_score));
   const avgRisk =
