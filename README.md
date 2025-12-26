@@ -42,10 +42,17 @@ In short:
 
 ## 🧠 High-Level System Architecture
 
-┌──────────────┐ ┌────────────────┐ ┌────────────────────┐
-│ ML Engine │ ───▶ │ FastAPI Backend │ ───▶ │ React Frontend UI │
-└──────────────┘ └────────────────┘ └────────────────────┘
-
+<p align="center">
+  <b>Video Input</b><br/>
+  ⬇️<br/>
+  <b>ML Pipeline (YOLOv8 + OpenCV)</b><br/>
+  ⬇️<br/>
+  <b>FastAPI Backend</b><br/>
+  ⬇️<br/>
+  <b>React Frontend Dashboard</b><br/>
+  ⬇️<br/>
+  <b>Final Report & Alerts</b>
+</p>
 
 ### 🔹 ML Engine (Brain)
 - Processes video frame-by-frame
@@ -192,23 +199,6 @@ This transforms **raw ML output** into **decision-ready insight**.
 - 📝 Clean and informative final report
 
 ---
-
-## ▶️ How to Run the Project
-
-### 1️⃣ Backend
-```bash
-pip install -r requirements.txt
-uvicorn backend.main:app --reload
-
-### 2️⃣ Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-### 3️⃣ ML pipeline
-```bash
-
-python realtime_detection.py
 
 🔄 Demo Flow (Recommended Order)
 
