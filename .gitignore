@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+check_installation.py
+data/
+
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+
+# Large files
+*.mp4
+*.pt
+
